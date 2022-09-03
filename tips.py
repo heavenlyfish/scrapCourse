@@ -17,7 +17,7 @@ try:
     response = requests.get(
         'https://www.bbc.com/zhongwen/trad/topics/cq8nqywy37yt', 
         headers = headers, 
-        timeout = 5, 
+        timeout = 10, 
     )
 
     if response.status_code == 200:
